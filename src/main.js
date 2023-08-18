@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         const currentPosition = window.scrollY;
 
-        if (currentPosition < heroHeight) {
-            hideHeaderElements();
-        } else {
+        if (currentPosition > heroHeight) {
             showHeaderElements();
+        } else {
+            hideHeaderElements();
         }
     })
     
