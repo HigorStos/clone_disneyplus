@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     for (let i = 0; i < questions.length; i++) {
-        questions[i].addEventListener('click', abreOuFechaResposta);
+        questions[i].addEventListener('click', toggleAnswer);
     }
 })
 
@@ -36,9 +36,9 @@ function removeActiveButton() {
     }
 }
 
-function abreOuFechaResposta(elemento) {
-    const classe = 'faq__questions__item--is-open';
-    const elementoPai = elemento.target.parentNode;
+function toggleAnswer(e) {
+    const toggleClass = 'faq__questions__item--is-open';
+    const element = e.target.parentNode;
 
-    elementoPai.classList.toggle(classe);
+    element.classList.toggle(toggleClass);
 }
