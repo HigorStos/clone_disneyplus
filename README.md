@@ -13,8 +13,8 @@
 Neste projeto, criamos um clone da landing page do Disney+. Realizado durante o módulo 21 da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
 ## 🚀 Tecnologias
-- Sass
 - JavaScript
+- Sass
 - Gulp
 - HTML
 - CSS
