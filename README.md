@@ -1,5 +1,5 @@
 <h1 align="center">
-  SmartFit | Bootstrap 
+  Disney+ | Clone
 </h1>
 
 ## 📷 Deploy
